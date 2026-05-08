@@ -60,17 +60,24 @@ The exact `id` value may differ if the database file already exists.
 
 ```text
 objectdb-demo/
+
 ├── pom.xml
-├── db/
-│   └── students.odb
 ├── src/
+
 │   └── main/
+
 │       ├── java/
+
 │       │   └── demo/
+
 │       │       ├── Main.java
+
 │       │       └── Student.java
+
 │       └── resources/
+
 │           └── META-INF/
+
 │               └── persistence.xml
 ```
 
@@ -93,4 +100,3 @@ objectdb-demo/
 - Verify `java -version` and `mvn -version` return valid versions.
 - If Maven cannot download dependencies, check your internet connection.
 - If the project does not run, ensure you are inside the `objectdb-demo` folder before executing Maven commands.
-
