@@ -15,15 +15,25 @@ This project is a simple Java Maven application that demonstrates an object-orie
 
 # Project Structure
 objectdb-demo/
+
 ├── pom.xml
+
 ├── src/
+
 │   └── main/
+
 │       ├── java/
+
 │       │   └── demo/
+
 │       │       ├── Main.java
+
 │       │       └── Student.java
+
 │       └── resources/
+
 │           └── META-INF/
+
 │               └── persistence.xml
 
 # File Roles
